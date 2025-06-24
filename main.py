@@ -4,4 +4,4 @@ inventory = []
 def add_pokemon(pokeman):
   inventory.append(pokeman)
 
-
+print("Welcome to the world of pokemon!!!")
