@@ -45,7 +45,8 @@ def start():
 t1 = 3
 t2 = 2
 t3 = 1
-if p_p1 = input('What is your first Pokeman?').lower()
+if t1 > 0 and t2 > 0 and t3 > 0
+p_p1 = input('What is your first Pokeman?').lower()
 p_p2 = input('What is your second Pokeman?').lower()
 p_p3 = input('What is your third Pokeman?').lower()
 p_p4 = input('What is your fourth Pokeman?').lower()
