@@ -36,7 +36,7 @@ pokeman = {
   }
   'minitails' = {
     'name' : 'minitails',
-    'tier' : 2,
+    'tier' : 1,
     'health' : 40,
     'attack' : 10,
     'type' : 'fire',
