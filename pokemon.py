@@ -48,8 +48,8 @@ pokeman = {
     'attack' : 25,
     'type' : 'fire',
   }
-  'moltres' = {
-    'name' : 'moltres',
+  'moltrez' = {
+    'name' : 'moltrez',
     'tier' : 3,
     'health' : 150,
     'attack' : 70,
