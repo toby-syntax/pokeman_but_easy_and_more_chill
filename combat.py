@@ -27,7 +27,7 @@ def playerDamageCalc(enemyType, enemyHealth, playerAttack):
     elif enemyType in playerWeakness:
         damage /= 2
     enemyHealth -= damage
-    print(f"[Player name] deals {damage} damage to [Enemy name].")
+    print(f"{Player name} deals {damage} damage to {Enemy name}.")
     return enemyHealth
 
 def enemyDamageCalc(enemyType, playerHealth, enemyAttack):
@@ -37,14 +37,26 @@ def enemyDamageCalc(enemyType, playerHealth, enemyAttack):
     elif enemyType in playerWeakness:
         damage *= 2
     playerHealth -= damage
-    print(f"[Enemy name] deals {damage} damage to [Player name].")
+    print(f"{Enemy name} deals {damage} damage to {Player name}.")
     return playerHealth
 
 def playerTurn():
-    move = input('You can choose to "Retreat" or "Attack"').lower()
-    if move == 'retreat':
-        hbahs
-    elif move == 'Attack':
-        playerDamageCalc(enemyType, enemyHealth, pokeman.Attack)
+    while True:
+        move = input('You can choose to "Retreat" or "Attack"').lower()
+        if move == 'retreat':
+            while True:
+                NA = input(f'These are your benched pokemon {BenchedPokeman}, pick on to swap with you active pokeman.').lower()
+                if NA in BenchedPokemon:
+                    BenchedPokeman.append(ActivePokeman)
+                    ActivePokeman = NA
+                    BenchedPokeman.remove(NA)
+                    break
+                else:
+                    print('Please enter a valid option.')
+        elif move == 'Attack':
+            playerDamageCalc(enemyType, enemyHealth, pokeman.attack)
+            break
+        else:
+            print('Please enter a valid option.')
     
   
