@@ -62,15 +62,15 @@ pokeman = {
     'attack' : 10,
     'type' : 'grass',
   }
-  'aphrosaur' = {
-    'name' : 'aphrosaur',
+  'poisonivysaur' = {
+    'name' : 'poisonivysaur',
     'tier' : 1,
     'health' : 80,
     'attack' : 25,
     'type' : 'grass',
   }
-  'poisonivysaur' = {
-    'name' : 'poisonivysaur',
+'aphrosaur' = {
+    'name' : 'aphrosaur',
     'tier' : 2,
     'health' : 100,
     'attack' : 40,
