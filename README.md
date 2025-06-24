@@ -4,3 +4,5 @@ This is the secondary pokemon version, scaled back, and almost ready for deploym
 
 As quoted by Jensen:
 > The Best Pokemon Game to Ever Exist
+
+Ensure all dependencies are _installed_ and please don't actively try to break the game (<sub>for it will probably break even if you dont try </sub>)
