@@ -39,3 +39,12 @@ def enemyDamageCalc(enemyType, playerHealth, enemyAttack):
     playerHealth -= damage
     print(f"[Enemy name] deals {damage} damage to [Player name].")
     return playerHealth
+
+def playerTurn():
+    move = input('You can choose to "Retreat" or "Attack"').lower()
+    if move == 'retreat':
+        hbahs
+    elif move == 'Attack':
+        playerDamageCalc(enemyType, enemyHealth, pokeman.Attack)
+    
+  
