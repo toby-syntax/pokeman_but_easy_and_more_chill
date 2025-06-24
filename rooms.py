@@ -24,7 +24,7 @@ def start():
 
   Water:
   Squirtman - 1
-  Warturtle - 1
+  Watertle - 1
   Splashsaur - 2
   Giridos - 3
   Staryee - 1
