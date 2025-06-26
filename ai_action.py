@@ -1,6 +1,11 @@
 import random
+from pokemon import fire_type, water_type, grass_type
 
-def ai_inventory():
+def ai_inventory(t1: hash, t2: hash, t3: hash):
+  selection = random.choice(t1, t1, t3)
+  ai_invent = {}
+  for i in range(6):
+    ai_invent.append(random.choice(selection))
   
 
 def ai_action(inventory : list, active_pokemon : object):
