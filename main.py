@@ -10,3 +10,4 @@ def add_pokemon(pokeman):
 print("Welcome to the world of pokemon!!!")
 print("")
 inventory = start()
+room1()
