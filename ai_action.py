@@ -1,6 +1,7 @@
 import random
 
-def ai_inventory()
+def ai_inventory():
+  
 
 def ai_action(inventory : list, active_pokemon : object):
   temp_pokemon = ''
