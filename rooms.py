@@ -62,6 +62,8 @@ if t1 > 0 and t2 > 0 and t3 > 0:
       t3 -= 1
     else:
       raise KeyError
+
+return player_inventory
   
 
 
