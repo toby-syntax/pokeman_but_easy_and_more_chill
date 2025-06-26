@@ -1,3 +1,5 @@
+from ai_action import *
+
 def combat(playerType):
     if playerType == "Fire":
         playerWeakness = ["Water", "Rock", "Fire"]
@@ -50,14 +52,16 @@ def playerTurn():
                     BenchedPokeman.append(ActivePokeman)
                     ActivePokeman = NA
                     BenchedPokeman.remove(NA)
-                    break
+                    print(f'You swapped your active pokemon with {NA}')
                 else:
                     print('Please enter a valid option.')
         elif move == 'Attack':
-            playerDamageCalc(enemyType, enemyHealth, pokeman.attack)
+            return(playerDamageCalc(enemyType, enemyHealth, pokeman.attack))
             break
         else:
             print('Please enter a valid option.')
     
-def enemyTurn():
-    
+def Combat():
+    while len(List_Of_Pokemon) > 0 and len(List_Of_Enemy_Pokemon) > 0:
+        print(playerTurn())
+        
