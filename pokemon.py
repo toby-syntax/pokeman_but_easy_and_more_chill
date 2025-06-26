@@ -8,7 +8,7 @@ class pokeman:
 
 
 def create_pokemon(hash):
-  return pokeman()
+  return pokeman(hash['name'], hash['health'], hash['attack'], hash['type'])
 
 
 
