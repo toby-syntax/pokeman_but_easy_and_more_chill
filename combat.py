@@ -61,7 +61,7 @@ def playerTurn(inventory, ActivePokeman, enemyType, enemyHealth, pokeman.attack)
         else:
             print('Please enter a valid option.')
     
-def Combat(List_Of_Pokemon, List_of_Enemy_Pokemon):
+def Combat(inventory, List_of_Enemy_Pokemon):
     while len(List_Of_Pokemon) > 0 and len(List_Of_Enemy_Pokemon) > 0:
         print(playerTurn(inventory, inventory[0], enemyType, enemyHealth, pokeman.attack))
         print(ai_action())
