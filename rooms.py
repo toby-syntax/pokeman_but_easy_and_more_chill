@@ -1,4 +1,5 @@
 from pokemon import pokeman, create_pokemon
+from ai_action import *
 
 def start():
   player_inventory = []
@@ -65,5 +66,7 @@ if t1 > 0 and t2 > 0 and t3 > 0:
 
 return player_inventory
 
-Combat()
+def room1(inventory, ai_invent):
+  
+  
 
