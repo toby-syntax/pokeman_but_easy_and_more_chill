@@ -1,5 +1,4 @@
 from ai_action import *
-from rooms import *
 
 def combat(playerType):
     if playerType == "Fire":
@@ -64,5 +63,5 @@ def playerTurn(inventory, ActivePokeman, enemyType, enemyHealth, pokeman.attack)
     
 def Combat(List_Of_Pokemon, List_of_Enemy_Pokemon):
     while len(List_Of_Pokemon) > 0 and len(List_Of_Enemy_Pokemon) > 0:
-        print(playerTurn(inventory, ActivePokeman))
+        print(playerTurn(inventory, inventory[0], enemyType, enemyHealth, pokeman.attack))
         print(ai_action())
