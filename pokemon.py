@@ -28,10 +28,10 @@ pokeman = {
     'type' : 'fire'
   }
   'charliz' = {
-    'name' : 'charliz'
+    'name' : 'charliz',
     'tier' : 2,
-    'health' : 100
-    'attack' : 40
+    'health' : 100,
+    'attack' : 40,
     'type' : 'fire'
   }
   'minitails' = {
