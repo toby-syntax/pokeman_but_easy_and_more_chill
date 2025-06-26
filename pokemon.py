@@ -139,6 +139,13 @@ pokeman = {
     'attack' : 40,
     'type' : 'water',
   },
+  'migicarp' = {
+    'name' : 'migicarp',
+    'tier' : 1,
+    'health' : 30,
+    'attack' : 10,
+    'type' : 'water',
+  },
   'giridos' : {
     'name' : 'giridos',
     'tier' : 3,
@@ -218,7 +225,7 @@ fire_type = {
     'health' : 60,
     'attack' : 10,
     'type' : 'fire'
-  },,
+  },
   'charmelon' : {
     'name' : 'charmelon',
     'tier' : 1,
