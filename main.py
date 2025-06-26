@@ -9,4 +9,4 @@ def add_pokemon(pokeman):
 
 print("Welcome to the world of pokemon!!!")
 print("")
-start()
+inventory = start()
