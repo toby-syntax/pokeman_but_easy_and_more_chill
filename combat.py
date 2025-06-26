@@ -64,4 +64,4 @@ def playerTurn():
 def Combat():
     while len(List_Of_Pokemon) > 0 and len(List_Of_Enemy_Pokemon) > 0:
         print(playerTurn())
-        
+        print(ai_action())
