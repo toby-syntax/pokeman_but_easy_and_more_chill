@@ -13,363 +13,363 @@ def create_pokemon(hash):
 
 
 pokeman = {
-  'charman' = {
+  'charman' : {
     'name' : 'charman',
     'tier' : 1,
     'health' : 60,
     'attack' : 10,
     'type' : 'fire',
-  },
-  'charmelon' = {
+  },,
+  'charmelon' : {
     'name' : 'charmelon',
     'tier' : 1,
     'health' : 80,
     'attack' : 25,
     'type' : 'fire'
-  }
-  'charliz' = {
+  },
+  'charliz' : {
     'name' : 'charliz',
     'tier' : 2,
     'health' : 100,
     'attack' : 40,
     'type' : 'fire'
-  }
-  'minitails' = {
+  },
+  'minitails' : {
     'name' : 'minitails',
     'tier' : 1,
     'health' : 40,
     'attack' : 10,
     'type' : 'fire',
-  }
-  'tentales' = {
-    'name' = 'tentales',
+  },
+  'tentales' : {
+    'name' : 'tentales',
     'tier' : 2,
     'health' : 70,
     'attack' : 25,
     'type' : 'fire',
-  }
-  'moltrez' = {
+  },
+  'moltrez' : {
     'name' : 'moltrez',
     'tier' : 3,
     'health' : 150,
     'attack' : 70,
     'type' : 'fire',
-  }
-  'bulbman' = {
+  },
+  'bulbman' : {
     'name' : 'bulbman',
     'tier' : 1,
     'health' : 60,
     'attack' : 10,
     'type' : 'grass',
-  }
-  'poisonivysaur' = {
+  },
+  'poisonivysaur' : {
     'name' : 'poisonivysaur',
     'tier' : 1,
     'health' : 80,
     'attack' : 25,
     'type' : 'grass',
-  }
-'aphrosaur' = {
+  },
+'aphrosaur' : {
     'name' : 'aphrosaur',
     'tier' : 2,
     'health' : 100,
     'attack' : 40,
     'type' : 'grass',
-  }
-  'beelsprout' = {
+  },
+  'beelsprout' : {
     'name' : 'beelsprout',
     'tier' : 1,
     'health' : 50,
     'attack' : 10,
     'type' : 'grass',
-  }
-  'weepingbeel' = {
+  },
+  'weepingbeel' : {
     'name' : 'weepingbeel',
     'tier' : 2,
     'health' : 70,
     'attack' : 20,
     'type' : 'grass',
-  }
-  'victorybeel' = {
+  },
+  'victorybeel' : {
     'name' : 'victorybeel',
     'tier' : 2,
     'health' : 120,
     'attack' : 50,
     'type' : 'grass',
-  }
-  'splatterpie' = {
+  },
+  'splatterpie' : {
     'name' : 'splatterpie',
     'tier' : 1,
     'health' : 40,
     'attack' : 10,
     'type' : 'grass',
-  }
-  'splatterpod' = {
+  },
+  'splatterpod' : {
     'name' : 'splatterpod',
     'tier' : 1,
     'health' : 90,
     'attack' : 5,
     'type' : 'grass',
-  }
-  'splatterfree' = {
+  },
+  'splatterfree' : {
     'name' : 'splatterfree',
     'tier' : 2,
     'health' : 90,
     'attack' : 25,
     'type' : 'grass',
-  }
-  'squirtman' = {
+  },
+  'squirtman' : {
     'name' : 'squirtman',
     'tier' : 1,
     'health' : 60,
     'attack' : 10,
     'type' : 'water',
-  }
-  'warturtle' = {
+  },
+  'warturtle' : {
     'name' : 'warturtle',
     'tier' : 1,
     'health' : 80,
     'attack' : 25,
     'type' : 'water',
-  }
-  'splashsaur' = {
+  },
+  'splashsaur' : {
     'name' : 'splashsaur',
     'tier' : 2,
     'health' : 100,
     'attack' : 40,
     'type' : 'water',
-  }
-  'giridos' = {
+  },
+  'giridos' : {
     'name' : 'giridos',
     'tier' : 3,
     'health' : 120,
     'attack' : 50,
     'type' : 'water',
-  }
-  'staryee' = {
+  },
+  'staryee' : {
     'name' : 'staryee',
     'tier' : 1,
     'health' : 70,
     'attack' : 20,
     'type' : 'water',
-  }
-  'starmee' = {
+  },
+  'starmee' : {
     'name' : 'starmee',
     'tier' : 2,
     'health' : 80,
     'attack' : 30,
     'type' : 'water',
-  }
-  'articunee' = {
+  },
+  'articunee' : {
     'name' : 'articunee',
     'tier' : 3,
     'health' : 150,
     'attack' : 70,
     'type' : 'water',
-  }
-  'pikachu' = {
+  },
+  'pikachu' : {
     'name' : 'pikachu',
     'tier' : 1,
     'health' : 70,
     'attack' : 20,
     'type' : 'electric',
-  }
-  'raichu' = {
+  },
+  'raichu' : {
     'name' : 'raichu',
     'tier' : 2,
     'health' : 90,
     'attack' : 30,
     'type' : 'electric',
-  }
-  'zapdos' = {
+  },
+  'zapdos' : {
     'name' : 'zapdos',
     'tier' : 3,
     'health' : 150,
     'attack' : 70,
     'type' : 'electric',
-  }
-  'pidgman' = {
+  },
+  'pidgman' : {
     'name' : 'pidgman',
     'tier' : 1,
     'health' : 50,
     'attack' : 20,
     'type' : 'normal',
-  }
-  'pidgeetoo' = {
+  },
+  'pidgeetoo' : {
     'name' : 'pidgetoo',
     'tier' : 2,
     'health' : 70,
     'attack' : 30,
     'type' : 'normal',
-  }
-  'pidgeoot' = {
+  },
+  'pidgeoot' : {
     'name' : 'pidgeoot',
     'tier' : 2,
     'health' : 100,
     'attack' : 40,
     'type' : 'normal',
-  }
+  },
 }
 
 fire_type = {
-  'charman' = {
+  'charman' : {
     'name' : 'charman',
     'tier' : 1,
     'health' : 60,
     'attack' : 10,
     'type' : 'fire'
-  },
-  'charmelon' = {
+  },,
+  'charmelon' : {
     'name' : 'charmelon',
     'tier' : 1,
     'health' : 80,
     'attack' : 25,
     'type' : 'fire'
-  }
-  'charliz' = {
+  },
+  'charliz' : {
     'name' : 'charliz',
     'tier' : 2,
     'health' : 100,
     'attack' : 40,
     'type' : 'fire'
-  }
-  'minitails' = {
+  },
+  'minitails' : {
     'name' : 'minitails',
     'tier' : 1,
     'health' : 40,
     'attack' : 10,
     'type' : 'fire',
-  }
-  'tentales' = {
-    'name' = 'tentales',
+  },
+  'tentales' : {
+    'name' : 'tentales',
     'tier' : 2,
     'health' : 70,
     'attack' : 25,
     'type' : 'fire',
-  }
-  'moltrez' = {
+  },
+  'moltrez' : {
     'name' : 'moltrez',
     'tier' : 3,
     'health' : 150,
     'attack' : 70,
     'type' : 'fire',
-  }
+  },
 }
 
 water_type = {
-  'squirtman' = {
+  'squirtman' : {
     'name' : 'squirtman',
     'tier' : 1,
     'health' : 60,
     'attack' : 10,
     'type' : 'water',
-  }
-  'warturtle' = {
+  },
+  'warturtle' : {
     'name' : 'warturtle',
     'tier' : 1,
     'health' : 80,
     'attack' : 25,
     'type' : 'water',
-  }
-  'splashsaur' = {
+  },
+  'splashsaur' : {
     'name' : 'splashsaur',
     'tier' : 2,
     'health' : 100,
     'attack' : 40,
     'type' : 'water',
-  }
-  'giridos' = {
+  },
+  'giridos' : {
     'name' : 'giridos',
     'tier' : 3,
     'health' : 120,
     'attack' : 50,
     'type' : 'water',
-  }
-  'staryee' = {
+  },
+  'staryee' : {
     'name' : 'staryee',
     'tier' : 1,
     'health' : 70,
     'attack' : 20,
     'type' : 'water',
-  }
-  'starmee' = {
+  },
+  'starmee' : {
     'name' : 'starmee',
     'tier' : 2,
     'health' : 80,
     'attack' : 30,
     'type' : 'water',
-  }
-  'articunee' = {
+  },
+  'articunee' : {
     'name' : 'articunee',
     'tier' : 3,
     'health' : 150,
     'attack' : 70,
     'type' : 'water',
-  }
+  },
 }
 
 grass_type = {
-  'bulbman' = {
+  'bulbman' : {
     'name' : 'bulbman',
     'tier' : 1,
     'health' : 60,
     'attack' : 10,
     'type' : 'grass',
-  }
-  'poisonivysaur' = {
+  },
+  'poisonivysaur' : {
     'name' : 'poisonivysaur',
     'tier' : 1,
     'health' : 80,
     'attack' : 25,
     'type' : 'grass',
-  }
-'aphrosaur' = {
+  },
+'aphrosaur' : {
     'name' : 'aphrosaur',
     'tier' : 2,
     'health' : 100,
     'attack' : 40,
     'type' : 'grass',
-  }
-  'beelsprout' = {
+  },
+  'beelsprout' : {
     'name' : 'beelsprout',
     'tier' : 1,
     'health' : 50,
     'attack' : 10,
     'type' : 'grass',
-  }
-  'weepingbeel' = {
+  },
+  'weepingbeel' : {
     'name' : 'weepingbeel',
     'tier' : 2,
     'health' : 70,
     'attack' : 20,
     'type' : 'grass',
-  }
-  'victorybeel' = {
+  },
+  'victorybeel' : {
     'name' : 'victorybeel',
     'tier' : 2,
     'health' : 120,
     'attack' : 50,
     'type' : 'grass',
-  }
-  'splatterpie' = {
+  },
+  'splatterpie' : {
     'name' : 'splatterpie',
     'tier' : 1,
     'health' : 40,
     'attack' : 10,
     'type' : 'grass',
-  }
-  'splatterpod' = {
+  },
+  'splatterpod' : {
     'name' : 'splatterpod',
     'tier' : 1,
     'health' : 90,
     'attack' : 5,
     'type' : 'grass',
-  }
-  'splatterfree' = {
+  },
+  'splatterfree' : {
     'name' : 'splatterfree',
     'tier' : 2,
     'health' : 90,
     'attack' : 25,
     'type' : 'grass',
-  }
+  },
 }
