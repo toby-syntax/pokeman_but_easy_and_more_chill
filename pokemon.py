@@ -11,7 +11,7 @@ def create_pokemon(hash):
   return pokeman()
 
 
-pokeman : {
+pokeman = {
   'charman' : {
     'name' : 'charman',
     'tier' : 1,
