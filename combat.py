@@ -61,14 +61,7 @@ def playerTurn():
         else:
             print('Please enter a valid option.')
     
-
-
 def Combat():
     while len(List_Of_Pokemon) > 0 and len(List_Of_Enemy_Pokemon) > 0:
         print(playerTurn())
-        print(
-
-
-
-    
-  
+        
