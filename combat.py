@@ -59,4 +59,5 @@ def playerTurn():
         else:
             print('Please enter a valid option.')
     
-  
+def enemyTurn():
+    
