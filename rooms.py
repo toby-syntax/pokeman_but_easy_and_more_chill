@@ -42,15 +42,14 @@ def start():
   Pidgeoot - 2
   
   ''')
+
+
+
 t1 = 3
 t2 = 2
 t3 = 1
-if t1 > 0 and t2 > 0 and t3 > 0
-p_p1 = input('What is your first Pokeman?').lower()
-p_p2 = input('What is your second Pokeman?').lower()
-p_p3 = input('What is your third Pokeman?').lower()
-p_p4 = input('What is your fourth Pokeman?').lower()
-p_p5 = input('What is your fifth Pokeman?').lower()
-p_p6 = input('What is your sixth Pokeman?').lower()
+if t1 > 0 and t2 > 0 and t3 > 0:
+  poke_hold = input(f"What is your choice of pokemon, you have {t1} tier ones left, {t2} tier twos left, and {t3} tier threes left. ")
+  
 
 
