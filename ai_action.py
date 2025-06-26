@@ -6,6 +6,7 @@ def ai_inventory(t1: hash, t2: hash, t3: hash):
   ai_invent = {}
   for i in range(6):
     ai_invent.append(random.choice(selection))
+  return(selection)
   
 
 def ai_action(inventory : list, active_pokemon : object):
