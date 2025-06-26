@@ -42,7 +42,7 @@ def enemyDamageCalc(enemyType, playerHealth, enemyAttack):
     print(f"{Enemy name} deals {damage} damage to {Player name}.")
     return playerHealth
 
-def playerTurn():
+def playerTurn(inventory, ActivePokeman, enemyType, enemyHealth, pokeman.attack):
     while True:
         move = input('You can choose to "Retreat" or "Attack"').lower()
         if move == 'retreat':
@@ -61,7 +61,7 @@ def playerTurn():
         else:
             print('Please enter a valid option.')
     
-def Combat():
+def Combat(List_Of_Pokemon, List_of_Enemy_Pokemon):
     while len(List_Of_Pokemon) > 0 and len(List_Of_Enemy_Pokemon) > 0:
         print(playerTurn())
         print(ai_action())
