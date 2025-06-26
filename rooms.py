@@ -1,4 +1,7 @@
+from pokemon import pokeman, create_pokemon
+
 def start():
+  player_inventory = []
   print('''You wake up and are forced to fight in a dungeon-style gym, against a PE teacher who smells like coffee and cigarettes.
   What pokeman do you pick to fight his f{enemy_type} list. HINT: (fire > grass > water > fire) (electric > water)
 
@@ -44,12 +47,21 @@ def start():
   ''')
 
 
-
 t1 = 3
 t2 = 2
 t3 = 1
 if t1 > 0 and t2 > 0 and t3 > 0:
   poke_hold = input(f"What is your choice of pokemon, you have {t1} tier ones left, {t2} tier twos left, and {t3} tier threes left. ")
+  if poke_hold.lower() in pokeman:
+    player_inventory.append(create_pokemon(pokeman['poke_hold']))
+    if pokeman['poke_hold']['tier'] == 1:
+      t1 -= 1
+    elif pokeman['poke_hold']['tier'] == 2:
+      t2 -= 1
+    elif pokeman['poke_hold']['tier'] == 3:
+      t3 -= 1
+    else:
+      raise KeyError
   
 
 
