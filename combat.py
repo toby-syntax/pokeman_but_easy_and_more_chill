@@ -47,11 +47,11 @@ def playerTurn():
         move = input('You can choose to "Retreat" or "Attack"').lower()
         if move == 'retreat':
             while True:
-                NA = input(f'These are your benched pokemon {BenchedPokeman}, pick on to swap with you active pokeman.').lower()
-                if NA in BenchedPokemon:
-                    BenchedPokeman.append(ActivePokeman)
+                NA = input(f'These are your benched pokemon {inventory}, pick on to swap with you active pokeman.').lower()
+                if NA in inventory:
+                    inventory.append(ActivePokeman)
                     ActivePokeman = NA
-                    BenchedPokeman.remove(NA)
+                    inventory.remove(NA)
                     print(f'You swapped your active pokemon with {NA}')
                 else:
                     print('Please enter a valid option.')
