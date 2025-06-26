@@ -18,7 +18,7 @@ pokeman = {
     'tier' : 1,
     'health' : 60,
     'attack' : 10,
-    'type' : 'fire'
+    'type' : 'fire',
   },
   'charmelon' = {
     'name' : 'charmelon',
